@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <main class="content">
+        <header class="header">
+            <nav class="nav1">
+                <img src="img/logo.png" alt="" class="nav1_logo">
+                <button id="nav1_button">
+                    <ul class="nav1_button_ul">
+                        <li id="nav1_button_li1">0 ₽</li>
+                        <img src="img/button line.png" alt="">
+                        <li id="nav1_button_li2">
+                            <img src="img/cart.svg" alt="">
+                            0
+                        </li>
+                    </ul>
+                </button>
+            </nav>
+            <img src="img/header devider line.png" alt="" class="header-line">
+        </header>
+
+        <section class="section">
+            <div class="section-cart">
+                <div class="cart-title">🛒 Корзина</div>
+
+                <div class="cart-item">
+                    <div class="cart-info">
+                        <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/d59f4e4f9a3f4e2b9f20a2f3b6a68028_292x292.jpeg"
+                            alt="pizza">
+                        <div class="cart-details">
+                            <strong>Сырный цыплёнок</strong>
+                            <span>тонкое тесто, 26 см</span>
+                        </div>
+                    </div>
+                    <div class="cart-quantity">
+                        <button>-</button>
+                        <span>2</span>
+                        <button>+</button>
+                    </div>
+                    <div class="cart-price">770 ₽</div>
+                    <div class="cart-remove">×</div>
+                </div>
+
+                <div class="cart-item">
+                    <div class="cart-info">
+                        <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/58c0bd3b62e946f494e387f680fb360f_292x292.jpeg"
+                            alt="pizza">
+                        <div class="cart-details">
+                            <strong>Креветки по-азиатски</strong>
+                            <span>толстое тесто, 40 см</span>
+                        </div>
+                    </div>
+                    <div class="cart-quantity">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                    <div class="cart-price">290 ₽</div>
+                    <div class="cart-remove">×</div>
+                </div>
+
+                <div class="cart-item">
+                    <div class="cart-info">
+                        <img src="https://dodopizza-a.akamaihd.net/static/Img/Products/97432123d1274625a4b0ef06c2a32564_292x292.jpeg"
+                            alt="pizza">
+                        <div class="cart-details">
+                            <strong>Чизбургер-пицца</strong>
+                            <span>тонкое тесто, 30 см</span>
+                        </div>
+                    </div>
+                    <div class="cart-quantity">
+                        <button>-</button>
+                        <span>3</span>
+                        <button>+</button>
+                    </div>
+                    <div class="cart-price">350 ₽</div>
+                    <div class="cart-remove">×</div>
+                </div>
+
+                <div class="cart-summary">
+                    <div>Всего пицц: <b>3 шт.</b></div>
+                    <div>Сумма заказа: <span class="total-price">900 ₽</span></div>
+                </div>
+
+                <button class="checkout-btn">Оплатить сейчас</button>
+
+            </div>
+
+            <div class="section-empty">
+                <h1 class="section-empty_h1">Корзина пустая 😕</h1>
+                <p class="section-empty_p">Вероятней всего, вы не заказывали ещё пиццу.
+                    Для того, чтобы заказать пиццу, перейди на главную страницу.</p>
+                <img src="img/shopping-cart-colour 1.png" alt="" class="section-empty_img">
+                <button id="section-empty_button">Вернуться назад</button>
+            </div>
+        </section>
+    </main>
+
+
+
+    <script src="cart.js"></script>
+</body>
+
+</html>

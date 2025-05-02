@@ -1,0 +1,22 @@
+{
+  "cart": [
+    {
+      "id": 1746221952058,
+      "name": "Сырная",
+      "img": "https://media.dodostatic.net/image/r:584x584/11ee7d610d2925109ab2e1c92cc5383c.avif",
+      "price": "339 ₽",
+      "quantity": 1,
+      "type": "thin",
+      "size": "small"
+    },
+    {
+      "id": 1746221955900,
+      "name": "Жюльен",
+      "img": "https://media.dodostatic.net/image/r:584x584/11ee7d6175c10773bfe36e56d48df7e3.avif",
+      "price": "1 069 ₽",
+      "quantity": 1,
+      "type": "thin",
+      "size": "large"
+    }
+  ]
+}

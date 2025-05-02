@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="content">
+        <header class="header">
+            <nav class="nav1">
+                <img src="img/logo.png" alt="" class="nav1_logo">
+                <button id="nav1_button">
+                    <ul class="nav1_button_ul">
+                        <li id="nav1_button_li1">0 ₽</li>
+                        <img src="img/button line.png" alt="">
+                        <li id="nav1_button_li2">
+                            <img src="img/cart.svg" alt="">
+                            0
+                        </li>
+                    </ul> 
+                </button>
+            </nav>
+
+            <img src="img/header devider line.png" alt="" class="header-line">
+
+            <nav class="nav2">
+                <ul class="nav2-categoriesUl">
+                    <li id="category-all" class="nav2-categoriesUl_li activeCategory">Все</li>
+                    <li id="category-meat" class="nav2-categoriesUl_li">Мясные</li>
+                    <li id="category-vegeterian" class="nav2-categoriesUl_li">Вегетарианские</li>
+                    <li id="category-grill" class="nav2-categoriesUl_li">Гриль</li>
+                    <li id="category-spicy" class="nav2-categoriesUl_li">Острые</li>
+                    <li id="category-closed" class="nav2-categoriesUl_li">Закрытые</li>
+                </ul>
+
+                <div class="nav2-sort">
+                    <img src="img/drop-down.svg" alt="" id="nav2-sort_img">
+                    <p class="nav2-sort_p">Сортировка по:</p>
+                    <div class="nav2-sort-UlDiv">
+                        <p id="nav2-sortUlDiv_p" class="activeSortP"></p>
+                        <ul id="nav2-sortUl">
+                            <li class="nav2-sortUl_li activeSort" value="sort-popularity" id="nav2-sortUl_li1">популярности</li>
+                            <li class="nav2-sortUl_li" value="sort-price">цене</li>
+                            <li class="nav2-sortUl_li" value="sort-name">алфавиту</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="section">
+            <h1 id="section_h1">Все пиццы</h1>
+            <div class="section-pizzas">
+                
+            </div>
+        </section>
+    </main>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

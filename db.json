@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "img": "https://media.dodostatic.net/image/r:584x584/11ee897382fe407eb533708a14b5d5bc.avif",
+        "name": "Пепперони",
+        "price": {
+            "thin": {
+                "25sm": "519 ₽",
+                "30sm": "789 ₽",
+                "35sm": "929 ₽"
+            },
+            "traditional": {
+                "25sm": "519 ₽",
+                "30sm": "789 ₽",
+                "35sm": "929 ₽"
+            }
+        },
+        "category": "meat",
+        "popularity": 1
+    },
+    {
+        "id": 2,
+        "img": "https://media.dodostatic.net/image/r:584x584/11ee7d610d2925109ab2e1c92cc5383c.avif",
+        "name": "Сырная",
+        "price": {
+            "thin": {
+                "25sm": "339 ₽",
+                "30sm": "619 ₽",
+                "35sm": "779 ₽"
+            },
+            "traditional": {
+                "25sm": "339 ₽",
+                "30sm": "619 ₽",
+                "35sm": "779 ₽"
+            }
+        },
+        "category": "vegeterian",
+        "popularity": 2
+    },
+    {
+        "id": 3,
+        "img": "https://media.dodostatic.net/image/r:584x584/11ee7d6175c10773bfe36e56d48df7e3.avif",
+        "name": "Жюльен",
+        "price": {
+            "thin": {
+                "25sm": "619 ₽",
+                "30sm": "929 ₽",
+                "35sm": "1 069 ₽"
+            },
+            "traditional": {
+                "25sm": "619 ₽",
+                "30sm": "929 ₽",
+                "35sm": "1 069 ₽"
+            }
+        },
+        "category": "grill",
+        "popularity": 3
+    },
+    {
+        "id": 4,
+        "img": "https://media.dodostatic.net/image/r:584x584/019591b642d87304a62d322945990861.avif",
+        "name": "Креветка и песто",
+        "price": {
+            "thin": {
+                "25sm": "619 ₽",
+                "30sm": "929 ₽",
+                "35sm": "1 069 ₽"
+            },
+            "traditional": {
+                "25sm": "619 ₽",
+                "30sm": "929 ₽",
+                "35sm": "1 069 ₽"
+            }
+        },
+        "category": "meat",
+        "popularity": 4
+    },
+    {
+        "id": 5,
+        "img": "https://media.dodostatic.net/image/r:584x584/11ee7d612a1c13cbbfcc286c332d7762.avif",
+        "name": "Четыре сыра",
+        "price": {
+            "thin": {
+                "25sm": "569 ₽",
+                "30sm": "839 ₽",
+                "35sm": "1 029 ₽"
+            },
+            "traditional": {
+                "25sm": "569 ₽",
+                "30sm": "839 ₽",
+                "35sm": "1 029 ₽"
+            }
+        },
+        "category": "vegeterian",
+        "popularity": 5
+    },
+    {
+        "id": 6,
+        "img": "https://media.dodostatic.net/image/r:584x584/11ee7d61706d472f9a5d71eb94149304.avif",
+        "name": "Чоризо Фреш",
+        "price": {
+            "thin": {
+                "25sm": "339 ₽",
+                "30sm": "619 ₽",
+                "35sm": "779 ₽"
+            },
+            "traditional": {
+                "25sm": "339 ₽",
+                "30sm": "619 ₽",
+                "35sm": "779 ₽"
+            }
+        },
+        "category": "spicy",
+        "popularity": 6
+    },
+    {
+        "id": 7,
+        "img": "https://media.dodostatic.net/image/r:584x584/019591b13a1a724b90092c16d9b1c05a.avif",
+        "name": "Карбонара",
+        "price": {
+            "thin": {
+                "25sm": "659 ₽",
+                "30sm": "1 009 ₽",
+                "35sm": "1 119 ₽"
+            },
+            "traditional": {
+                "25sm": "659 ₽",
+                "30sm": "1 009 ₽",
+                "35sm": "1 119 ₽"
+            }
+        },
+        "category": "closed",
+        "popularity": 7
+    },
+    {
+        "id": 8,
+        "img": "https://media.dodostatic.net/image/r:584x584/01953ced168c758399984df8561623a3.avif",
+        "name": "Бефстроганов",
+        "price": {
+            "thin": {
+                "25sm": "549 ₽",
+                "30sm": "819 ₽",
+                "35sm": "999 ₽"
+            },
+            "traditional": {
+                "25sm": "549 ₽",
+                "30sm": "819 ₽",
+                "35sm": "999 ₽"
+            }
+        },
+        "category": "meat",
+        "popularity": 8
+    }
+]
